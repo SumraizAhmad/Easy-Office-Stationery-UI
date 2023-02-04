@@ -1,0 +1,318 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: Mulish; */
+}
+
+/* ------------  Grid Loyout Customization ------------  */
+.layout {
+    /* width: 1170px; */
+    display: grid;
+    grid-template-columns: repeat(12, fr);
+    grid-template-rows: 100px 50px 50px 50px 500px 290px 370px 130px 100px;
+}
+.grid_layout {
+    width: 100%;
+}
+.header {
+    grid-column: span 12;
+    background-color: #F2702A;
+}
+
+.navbar {
+    grid-column: span 12;
+    background-color: #eaebe9;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    grid-column: span 12;
+}
+
+.content_title {
+    grid-column: span 12;
+}
+
+.image_box {
+    grid-column: span 4;
+}
+
+.description {
+    grid-column: span 5;
+}
+
+.price {
+    grid-column: span 3;
+}
+
+.specification {
+    grid-column: span 12;
+}
+
+.signup {
+    grid-column: span 12;
+    background-color: rgb(0, 0, 0);
+    background-image: url('../Images/Black-Twist-Pen-on-Notebook-pexels-mohammad-danish.jpg');
+    height: 281px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.attached_link {
+    grid-column: span 12;
+}
+
+.footer {
+    grid-column: span 12;
+    margin-top: 2rem;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: center;
+}
+/* ------------  Grid Loyout Customization ------------  */
+
+
+
+/* ------------  header CSS start ------------   */
+.header_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item2 {
+    margin-right: 3rem;
+}
+
+.image_logo {
+    width: 205px;
+}
+
+span>i {
+    color: white;
+}
+/* ------------ header CSS END ------------  */
+
+
+
+/* ------------  navbar CSS start ------------   */
+.nav_item {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+.list_item {
+    list-style: none;
+    font-size: 21px;
+    font-weight: 600;
+    padding-right: 2rem;
+}
+
+.list_item>a {
+    text-decoration: none;
+    color: black;
+}
+.list_item>a:hover{
+    color: #F2702A;
+}
+/* ------------  navbar CSS start ------------   */
+
+
+
+/* ------------  Name CSS Start ------------   */
+.name>p {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #eaebe9;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding: 0.2rem;
+    padding-left: 1rem;
+}
+.oil {
+    color: #F2702A;
+    font-weight: 600;
+}
+/* ------------  Name CSS Start ------------  */
+
+
+
+/* ------------  Title CSS Start ------------   */
+.content_title>h2 {
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+    color: #F2702A;
+}
+.content_title>h2:hover{
+    color: black;
+}
+/* ------------  Title CSS Start ------------   */
+
+
+/* ------------  image CSS ------------  */
+.image_inside_box {
+    width: 335px;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+/* ------------  image CSS ------------  */
+
+
+/* ------------  description css ------------   */
+.desc_detail {
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.decs_list>li {
+    list-style: none;
+}
+/* ------------  description css ------------  */
+
+
+/* ------------  price CSS ------------   */
+.price_box {
+    background-color: #736d75;
+    margin-top: 4rem;
+    height: 355px;
+    margin-right: 1rem;
+}
+
+.price_box1 {
+    margin-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid white;
+}
+
+.price_box1>p {
+    color: white;
+}
+
+.price_box1>p>span {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.price_box2_inner {
+    color: white;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+/*  ------------  price CSS  ------------  */
+
+
+
+/* ------------  specification CSS ------------  */
+.specTable {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.specTable>h3 {
+    padding: 0.4rem;
+    background-color: #eaebe9;
+    font-weight: 600;
+}
+
+.table_content {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr>td {
+    width: 25%;
+    border: 1px solid black;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+}
+/* ------------  specification CSS ------------  */
+
+
+
+/*------------  Signup CSS ------------   */
+.signup_box {
+    width: 100%;
+    height: 281px;
+    background-color: rgba(0, 0, 0, 0.712);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_box_signup {
+    color: white;
+}
+
+.text_box_signup>h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.signup_button{
+    color: white;
+    text-decoration: none;
+    padding: 0.2rem;
+    background-color: #F2702A;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5px;
+    padding-bottom: 6px;
+}
+/* ------------ Signup CSS ------------  */
+
+/*------------  attached_link CSS------------   */
+.bottom_link{
+    display: flex;
+    justify-content: center;
+}
+.bottomlogo{
+    width: 164px;
+}
+.text_info{
+    padding-right: 4rem;
+    margin-left: 3rem;
+    border-right: 2px solid #eaebe9;
+}
+.link{
+    padding-left: 5rem;
+}
+.text_one{
+    font-size: 15px;
+    font-weight: 700;
+}
+.text_num{
+    font-size: 23px;
+    color: #F2702A;
+    font-weight: 400;
+}
+.text_cus{
+    font-size: 13px;
+    font-weight: 400;
+}
+/*------------  attached_link CSS ------------  */
+
+
+
+/* -----------footer CSS------------  */
+.footer>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer>ul>li{
+    list-style: none;
+    color: white;
+    padding-right: 3rem ;
+    font-size: 14px;
+}
+.footer>ul>li:hover{
+    color: #736d75;
+}
+/*------------  footer CSS ------------  */
